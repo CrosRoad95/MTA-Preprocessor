@@ -35,3 +35,11 @@ final code will be: `print(2)`
 print(ADD1(1,2)) -- print(1+2)
 print(ADD2(1,2)) -- print(3)
 ```
+
+# How start working with this?
+Simply add one line to your code:
+```lua
+loadstring(exports.prepocessor:install())()
+```
+where `prepocessor` is resource name.
+Then you can use `dofile` function that accept filename argument, example `dofile("test.lua")` will load test.lua with macro support
