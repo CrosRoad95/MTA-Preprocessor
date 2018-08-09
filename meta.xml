@@ -1,0 +1,10 @@
+<meta>
+	<info author="CrosRoad95" version="1.0" name="" type="script"></info>
+	<script src="preprocessor.lua" type="shared" cache="false"></script>
+  <export function="preprocessor" type="shared"/>
+  <export function="install" type="shared"/>
+
+  <file src="std/std.h"/>
+  <file src="std/colors.h"/>
+  <file src="std/math.h"/>
+</meta>
